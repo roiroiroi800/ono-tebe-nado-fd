@@ -1,18 +1,3 @@
-/* место для вашего кода */
-
-a,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-style: normal;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3.5px;
-}
-
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -73,7 +58,7 @@ h6 {
   min-height: 757px;
   padding: 165px 50px 50px 50px;
   position: relative;
-  background: url("../images/cover.jpg") no-repeat;
+  background: url("../images/lotus-flower.png") no-repeat;
   background-size: cover;
   background-position: center;
   margin-bottom: 180px;
@@ -189,7 +174,6 @@ h6 {
 
 .lots__card-list-item {
   width: 334px;
-  min-height: 596px;
   display: block;
 }
 
@@ -214,15 +198,15 @@ h6 {
 }
 
 .card_type_film {
-  background: url("../images/card-lot-01.jpg") no-repeat;
+  background: url("../images/lot_1.png") no-repeat;
 }
 
 .card_type_book {
-  background: url("../images/card-lot-02.jpg") no-repeat;
+  background: url("../images/lot_2.png") no-repeat;
 }
 
 .card_type_picture {
-  background: url("../images/card-lot-03.jpg") no-repeat;
+  background: url("../images/lot_3.png") no-repeat;
 }
 
 .card__title {
